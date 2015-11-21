@@ -1,5 +1,6 @@
 <!doctype html>
 <html ng-app>
+    <meta charset="UTF-8">
     <head>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
@@ -13,27 +14,36 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/globalize/1.0.0/globalize.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
         <script src="js/RadarChart.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
+        <!--<script type="text/javascript" src="js/script.js"></script>-->
         <script type="text/javascript" src="js/model/despesas.js"></script>
+        <script type="text/javascript" src="js/model/chartLine.js"></script>
     </head>
     <body>
-        <container class="col-md-12">
-            <div id="body">
-                <div id="chart">
+        <div class="container">
+            <div class="col-md-12">
+                <div id="body">
+                    <h1> Total anual </h1>
+                    <div class="row col-md-12 text-center">
+                        <div id="chart"></div>
+                    </div>
+                    <div class="row">
+                        <h1> Total anual detalhado </h1>
+                        <div class="col-md-12">
+                             asdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsaf asdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsaf asdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsaf asdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsafasdfsaf
+                        </div>
+                    </div>
+                    
+                    <h1></h1>
                 </div>
             </div>
-
-            <div>
-                <label>Name:</label>
-                <input type="text" ng-model="yourName" placeholder="Enter a name here">
-                <hr>
-                <h1>Hello {{yourName}}!</h1>
-            </div>
-        </container>
+        </div>
 <script type="text/javascript" src="js/data.js"></script>
     </body>
 </html>

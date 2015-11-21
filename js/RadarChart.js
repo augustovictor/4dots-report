@@ -81,7 +81,7 @@ var RadarChart = {
 	   .attr("y", function(d){return levelFactor*(1-cfg.factor*Math.cos(0));})
 	   .attr("class", "legend")
 	   .style("font-family", "sans-serif")
-	   .style("font-size", "10px")
+	   .style("font-size", "1px")
 	   .attr("transform", "translate(" + (cfg.w/2-levelFactor + cfg.ToRight) + ", " + (cfg.h/2-levelFactor) + ")")
 	   .attr("fill", "#737373")
 	   .text(Format((j+1)*cfg.maxValue/cfg.levels));

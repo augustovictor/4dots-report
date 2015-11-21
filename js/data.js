@@ -5,79 +5,71 @@ var w = 650,
 var colorscale = d3.scale.category10();
 
 //Legend titles
-var LegendOptions = ['Smartphone','Tablet'];
+var LegendOptions = ['Executado','Realizado'];
 
-$.getJSON('https://gist.githubusercontent.com/brunojppb/9248a4778b4d874c92a4/raw/38e09dc344a1856462521ef636d3f6a50ec54a88/despesas_2015.json', function(despesas) {
-	var janeiro = despesas.despesas[0].janeiro[0];
-	var fevereiro = despesas.despesas[0].fevereiro[0];
-	var marco = despesas.despesas[0].marco[0];
-	var abril = despesas.despesas[0].abril[0];
-	var maio = despesas.despesas[0].maio[0];
-	var junho = despesas.despesas[0].junho[0];
-	var julho = despesas.despesas[0].julho[0];
-	var agosto = despesas.despesas[0].agosto[0];
-	var setembro = despesas.despesas[0].setembro[0];
-	var outubro = despesas.despesas[0].outubro[0];
-	var novembro = despesas.despesas[0].novembro[0];
-	var dezembro = despesas.despesas[0].dezembro[0];
+var currencyToNumber = function (currency) {
+	return Number(currency.replace(/\.|,[0-9]{2}/g,""));
+}
 
-	//Data
-	var d = [
-			  [
-				{axis:"LEGISLATIVA",value:34521550},
-				{axis:"Social Networks",value:0.56},
-				{axis:"Internet Banking",value:0.42},
-				{axis:"News Sportsites",value:0.34},
-				{axis:"Search Engine",value:0.48},
-				{axis:"View Shopping sites",value:0.14},
-				{axis:"Paying Online",value:0.11},
-				{axis:"Buy Online",value:0.05},
-				{axis:"Stream Music",value:0.07},
-				{axis:"Online Gaming",value:0.12},
-				{axis:"Navigation",value:0.27},
-				{axis:"App connected to TV program",value:0.03},
-				{axis:"Offline Gaming",value:0.12},
-				{axis:"Photo Video",value:0.4},
-				{axis:"Reading",value:0.03},
-				{axis:"Listen Music",value:0.22},
-				{axis:"Watch TV",value:0.03},
-				{axis:"TV Movies Streaming",value:0.03},
-				{axis:"Listen Radio",value:0.07},
-				{axis:"Sending Money",value:0.18},
-				{axis:"Other",value:0.07},
-				{axis:"Use less Once week",value:0.08}
-			  ],[
-				{axis:"Email",value:0.48},
-				{axis:"Social Networks",value:0.41},
-				{axis:"Internet Banking",value:0.27},
-				{axis:"News Sportsites",value:0.28},
-				{axis:"Search Engine",value:0.46},
-				{axis:"View Shopping sites",value:0.29},
-				{axis:"Paying Online",value:0.11},
-				{axis:"Buy Online",value:0.14},
-				{axis:"Stream Music",value:0.05},
-				{axis:"Online Gaming",value:0.19},
-				{axis:"Navigation",value:0.14},
-				{axis:"App connected to TV program",value:0.06},
-				{axis:"Offline Gaming",value:0.24},
-				{axis:"Photo Video",value:0.17},
-				{axis:"Reading",value:0.15},
-				{axis:"Listen Music",value:0.12},
-				{axis:"Watch TV",value:0.1},
-				{axis:"TV Movies Streaming",value:0.14},
-				{axis:"Listen Radio",value:0.06},
-				{axis:"Sending Money",value:0.16},
-				{axis:"Other",value:0.07},
-				{axis:"Use less Once week",value:0.17}
-			  ]
-			];
+$.getJSON('https://gist.githubusercontent.com/brunojppb/9248a4778b4d874c92a4/raw/38e09dc344a1856462521ef636d3f6a50ec54a88/despesas_2015.json', function(data) {
+	
+	var despesas = data.despesas;
+	var chartData = [];
+	var d = [];
+	var line = [];
+	
+	var totalExecutado = 0;
+	var totalRealizado = 0;
+	
+	for(var i = 0; i < despesas[11].dezembro.length; i++) {
+		var obj = despesas[11].dezembro[i];
+		totalExecutado += currencyToNumber(obj.executada);
+		console.log(totalExecutado);
+	}
+	console.log("============= ");
+	for(var i = 0; i < despesas[11].dezembro.length; i++) {
+		var obj = despesas[11].dezembro[i];
+		totalRealizado += currencyToNumber(obj.realizada);
+	}
+	
+	var test = 0;
+	for(var i = 0; i < despesas[11].dezembro.length; i++) {
+		var obj = despesas[11].dezembro[i];
+		var percent = (100.0 * currencyToNumber(obj.executada)) / totalExecutado;
+
+		test += percent;
+		console.log(percent);
+		line.push({
+			axis: obj.descricao,
+			value: percent/100
+		});
+	}
+	console.log("TOTAL: " + test);
+	d.push(line);
+	
+	// line = [];
+	
+	// for(var i = 0; i < despesas[11].dezembro.length; i++) {
+	// 	var obj = despesas[11].dezembro[i];
+	// 	var percent = (100.0 * currencyToNumber(obj.realizada)) / totalRealizado;
+	// 	console.log(percent);
+	// 	line.push({
+	// 		axis: obj.descricao,
+	// 		value: Math.floor(percent)
+	// 	});
+	// }
+	
+	// d.push(line);
+	
+	
+	
 
 	//Options for the Radar chart, other than default
 	var mycfg = {
 	  w: w,
 	  h: h,
 	  maxValue: 0.6,
-	  levels: 6,
+	  levels: 5,
 	  ExtraWidthX: 300
 	}
 
@@ -103,7 +95,7 @@ $.getJSON('https://gist.githubusercontent.com/brunojppb/9248a4778b4d874c92a4/raw
 		.attr("y", 10)
 		.attr("font-size", "12px")
 		.attr("fill", "#404040")
-		.text("What % of owners use a specific service in a week");
+		.text("Porcentagem de gastos por setor.");
 			
 	//Initiate Legend	
 	var legend = svg.append("g")
