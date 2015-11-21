@@ -1,0 +1,2215 @@
+{
+    "despesas": [
+        {
+            "janeiro": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "34.521.550,81",
+                    "realizada": "29.459.762,57",
+                    "saldo_a_pagar": "5.061.788,24"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "37.593.441,64",
+                    "realizada": "37.099.765,92",
+                    "saldo_a_pagar": "493.675,72"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "21.989.317,13",
+                    "realizada": "20.191.242,46",
+                    "saldo_a_pagar": "1.798.074,67"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "48.749.836,52",
+                    "realizada": "48.506.542,44",
+                    "saldo_a_pagar": "243.294,08"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "85.058.293,42",
+                    "realizada": "85.058.293,42",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "2.719.644,45",
+                    "realizada": "2.719.644,45",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "88.411.459,08",
+                    "realizada": "88.410.059,08",
+                    "saldo_a_pagar": "1.400,00"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "57.785.523,40",
+                    "realizada": "57.724.598,11",
+                    "saldo_a_pagar": "60.925,29"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "78.413.798,94",
+                    "realizada": "78.413.798,94",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "567.762,64",
+                    "realizada": "558.237,98",
+                    "saldo_a_pagar": "9.524,66"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "962.861,48",
+                    "realizada": "962.861,48",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "606.401,47",
+                    "realizada": "606.401,47",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "431.178,82",
+                    "realizada": "431.178,82",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "2.583.978,06",
+                    "realizada": "2.583.978,06",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "779.974,54",
+                    "realizada": "779.974,54",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "387.499,71",
+                    "realizada": "387.499,71",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "182.236,75",
+                    "realizada": "182.236,75",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "707.216,32",
+                    "realizada": "707.216,32",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "1.426.461,96",
+                    "realizada": "1.415.374,36",
+                    "saldo_a_pagar": "11.087,60"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "169.144,73",
+                    "realizada": "111.521,77",
+                    "saldo_a_pagar": "57.622,96"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "1.365.042,06",
+                    "realizada": "1.365.042,06",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "240.389,39",
+                    "realizada": "240.389,39",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "31.298.490,61",
+                    "realizada": "31.297.060,11",
+                    "saldo_a_pagar": "1.430,50"
+                }
+            ]
+        },
+        {
+            "fevereiro": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "50.031.305,36",
+                    "realizada": "44.966.187,92",
+                    "saldo_a_pagar": "5.065.117,44"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "91.069.719,10",
+                    "realizada": "90.051.833,48",
+                    "saldo_a_pagar": "1.017.885,62"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "54.286.769,68",
+                    "realizada": "44.562.600,34",
+                    "saldo_a_pagar": "9.724.169,34"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "136.284.278,34",
+                    "realizada": "130.860.696,03",
+                    "saldo_a_pagar": "5.423.582,31"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "164.807.648,11",
+                    "realizada": "164.339.627,52",
+                    "saldo_a_pagar": "468.020,59"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "15.763.949,64",
+                    "realizada": "13.531.731,84",
+                    "saldo_a_pagar": "2.232.217,80"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "247.652.139,17",
+                    "realizada": "247.607.066,36",
+                    "saldo_a_pagar": "45.072,81"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "134.567.462,55",
+                    "realizada": "134.360.373,43",
+                    "saldo_a_pagar": "207.089,12"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "245.429,47",
+                    "realizada": "245.429,47",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "167.296.595,11",
+                    "realizada": "167.201.799,14",
+                    "saldo_a_pagar": "94.795,97"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "1.357.083,04",
+                    "realizada": "1.341.923,25",
+                    "saldo_a_pagar": "15.159,79"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "20.588.363,48",
+                    "realizada": "20.588.363,48",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "3.488.117,02",
+                    "realizada": "3.488.117,02",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "3.295.780,32",
+                    "realizada": "3.295.722,41",
+                    "saldo_a_pagar": "57,91"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "8.297.173,12",
+                    "realizada": "8.286.025,12",
+                    "saldo_a_pagar": "11.148,00"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "7.604.289,97",
+                    "realizada": "7.604.289,97",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "2.310.294,27",
+                    "realizada": "2.304.889,27",
+                    "saldo_a_pagar": "5.405,00"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "33.308.063,32",
+                    "realizada": "29.529.428,76",
+                    "saldo_a_pagar": "3.778.634,56"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "2.637.386,83",
+                    "realizada": "1.944.988,63",
+                    "saldo_a_pagar": "692.398,20"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "2.495.991,94",
+                    "realizada": "2.375.239,31",
+                    "saldo_a_pagar": "120.752,63"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "2.708.909,43",
+                    "realizada": "2.633.261,36",
+                    "saldo_a_pagar": "75.648,07"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "4.966.689,25",
+                    "realizada": "4.618.781,86",
+                    "saldo_a_pagar": "347.907,39"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "412.945,07",
+                    "realizada": "355.322,10",
+                    "saldo_a_pagar": "57.622,97"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "10.935.677,30",
+                    "realizada": "10.935.677,30",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "479.696,36",
+                    "realizada": "479.696,36",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "78.844.171,44",
+                    "realizada": "78.572.279,47",
+                    "saldo_a_pagar": "271.891,97"
+                }
+            ]
+        },
+        {
+            "março": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "91.263.090,29",
+                    "realizada": "83.067.673,02",
+                    "saldo_a_pagar": "8.195.417,27"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "145.597.119,71",
+                    "realizada": "143.906.410,09",
+                    "saldo_a_pagar": "1.690.709,62"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "64.897.335,39",
+                    "realizada": "55.146.747,47",
+                    "saldo_a_pagar": "9.750.587,92"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "244.659.709,60",
+                    "realizada": "225.631.293,98",
+                    "saldo_a_pagar": "19.028.415,62"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "252.403.216,72",
+                    "realizada": "251.446.679,19",
+                    "saldo_a_pagar": "956.537,53"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "26.172.978,61",
+                    "realizada": "22.429.882,60",
+                    "saldo_a_pagar": "3.743.096,01"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "357.701.684,91",
+                    "realizada": "357.603.867,16",
+                    "saldo_a_pagar": "97.817,75"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "242.733.406,48",
+                    "realizada": "232.334.779,25",
+                    "saldo_a_pagar": "10.398.627,23"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "2.299.121,15",
+                    "realizada": "2.299.121,09",
+                    "saldo_a_pagar": "0,06"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "329.646.715,39",
+                    "realizada": "324.352.946,18",
+                    "saldo_a_pagar": "5.293.769,21"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "2.507.565,20",
+                    "realizada": "2.490.857,67",
+                    "saldo_a_pagar": "16.707,53"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "33.986.241,68",
+                    "realizada": "33.770.370,20",
+                    "saldo_a_pagar": "215.871,48"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "16.156.374,73",
+                    "realizada": "16.156.374,73",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "8.014.476,24",
+                    "realizada": "8.014.415,25",
+                    "saldo_a_pagar": "60,99"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "14.857.250,21",
+                    "realizada": "14.779.523,95",
+                    "saldo_a_pagar": "77.726,26"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "29.698.265,55",
+                    "realizada": "29.518.288,11",
+                    "saldo_a_pagar": "179.977,44"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "5.136.755,88",
+                    "realizada": "5.122.610,88",
+                    "saldo_a_pagar": "14.145,00"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "51.450.650,37",
+                    "realizada": "46.100.644,79",
+                    "saldo_a_pagar": "5.350.005,58"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "3.338.975,04",
+                    "realizada": "2.646.496,84",
+                    "saldo_a_pagar": "692.478,20"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "5.431.475,62",
+                    "realizada": "5.309.220,10",
+                    "saldo_a_pagar": "122.255,52"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "4.156.872,56",
+                    "realizada": "4.071.771,65",
+                    "saldo_a_pagar": "85.100,91"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "8.351.558,06",
+                    "realizada": "7.992.320,67",
+                    "saldo_a_pagar": "359.237,39"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "634.191,95",
+                    "realizada": "576.568,98",
+                    "saldo_a_pagar": "57.622,97"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "43.192.897,20",
+                    "realizada": "43.178.447,20",
+                    "saldo_a_pagar": "14.450,00"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "972.928,75",
+                    "realizada": "965.563,75",
+                    "saldo_a_pagar": "7.365,00"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "147.490.551,99",
+                    "realizada": "146.837.058,34",
+                    "saldo_a_pagar": "653.493,65"
+                }
+            ]
+        },
+        {
+            "abril": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "119.187.996,87",
+                    "realizada": "110.979.422,40",
+                    "saldo_a_pagar": "8.208.574,47"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "197.748.657,87",
+                    "realizada": "195.517.105,26",
+                    "saldo_a_pagar": "2.231.552,61"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "97.130.631,09",
+                    "realizada": "87.196.228,09",
+                    "saldo_a_pagar": "9.934.403,00"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "305.386.864,80",
+                    "realizada": "285.321.743,25",
+                    "saldo_a_pagar": "20.065.121,55"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "331.543.727,41",
+                    "realizada": "330.340.238,14",
+                    "saldo_a_pagar": "1.203.489,27"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "38.596.962,47",
+                    "realizada": "34.481.451,03",
+                    "saldo_a_pagar": "4.115.511,44"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "458.658.761,15",
+                    "realizada": "458.560.818,40",
+                    "saldo_a_pagar": "97.942,75"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "353.049.159,22",
+                    "realizada": "334.603.596,44",
+                    "saldo_a_pagar": "18.445.562,78"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "5.379.767,83",
+                    "realizada": "5.259.767,69",
+                    "saldo_a_pagar": "120.000,14"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "420.064.952,14",
+                    "realizada": "412.501.475,38",
+                    "saldo_a_pagar": "7.563.476,76"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "3.370.022,82",
+                    "realizada": "3.315.958,39",
+                    "saldo_a_pagar": "54.064,43"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "45.318.120,47",
+                    "realizada": "45.101.647,01",
+                    "saldo_a_pagar": "216.473,46"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "27.497.265,62",
+                    "realizada": "27.497.265,62",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "10.340.581,83",
+                    "realizada": "10.339.718,13",
+                    "saldo_a_pagar": "863,70"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "26.689.292,03",
+                    "realizada": "26.611.565,77",
+                    "saldo_a_pagar": "77.726,26"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "56.860.182,28",
+                    "realizada": "56.641.900,83",
+                    "saldo_a_pagar": "218.281,45"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "8.662.326,26",
+                    "realizada": "8.595.499,14",
+                    "saldo_a_pagar": "66.827,12"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "65.265.372,59",
+                    "realizada": "59.811.367,07",
+                    "saldo_a_pagar": "5.454.005,52"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "4.016.348,69",
+                    "realizada": "3.323.870,49",
+                    "saldo_a_pagar": "692.478,20"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "6.713.507,69",
+                    "realizada": "6.591.252,17",
+                    "saldo_a_pagar": "122.255,52"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "5.777.253,21",
+                    "realizada": "5.690.479,56",
+                    "saldo_a_pagar": "86.773,65"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "11.981.289,17",
+                    "realizada": "11.614.953,79",
+                    "saldo_a_pagar": "366.335,38"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "833.828,57",
+                    "realizada": "776.205,60",
+                    "saldo_a_pagar": "57.622,97"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "64.029.846,56",
+                    "realizada": "64.004.070,81",
+                    "saldo_a_pagar": "25.775,75"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "1.286.858,90",
+                    "realizada": "1.273.583,94",
+                    "saldo_a_pagar": "13.274,96"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "211.222.651,28",
+                    "realizada": "210.297.177,76",
+                    "saldo_a_pagar": "925.473,52"
+                }
+            ]
+        },
+        {
+            "maio": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "146.787.694,74",
+                    "realizada": "138.574.811,64",
+                    "saldo_a_pagar": "8.212.883,10"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "247.322.307,47",
+                    "realizada": "243.377.665,54",
+                    "saldo_a_pagar": "3.944.641,93"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "118.561.937,53",
+                    "realizada": "108.595.418,43",
+                    "saldo_a_pagar": "9.966.519,10"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "367.320.295,39",
+                    "realizada": "345.295.745,78",
+                    "saldo_a_pagar": "22.024.549,61"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "416.551.844,55",
+                    "realizada": "412.239.588,66",
+                    "saldo_a_pagar": "4.312.255,89"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "48.146.447,69",
+                    "realizada": "43.690.461,77",
+                    "saldo_a_pagar": "4.455.985,92"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "562.236.839,86",
+                    "realizada": "562.138.897,11",
+                    "saldo_a_pagar": "97.942,75"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "458.321.294,16",
+                    "realizada": "435.468.910,45",
+                    "saldo_a_pagar": "22.852.383,71"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "11.248.898,37",
+                    "realizada": "11.126.183,94",
+                    "saldo_a_pagar": "122.714,43"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "514.516.729,63",
+                    "realizada": "504.649.801,38",
+                    "saldo_a_pagar": "9.866.928,25"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "4.337.705,60",
+                    "realizada": "4.278.241,17",
+                    "saldo_a_pagar": "59.464,43"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "56.841.183,09",
+                    "realizada": "56.459.722,21",
+                    "saldo_a_pagar": "381.460,88"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "38.784.557,77",
+                    "realizada": "38.784.557,77",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "13.560.744,04",
+                    "realizada": "13.279.594,50",
+                    "saldo_a_pagar": "281.149,54"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "33.238.461,52",
+                    "realizada": "33.155.084,26",
+                    "saldo_a_pagar": "83.377,26"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "58.545.678,69",
+                    "realizada": "58.322.781,65",
+                    "saldo_a_pagar": "222.897,04"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "10.573.627,19",
+                    "realizada": "10.486.201,95",
+                    "saldo_a_pagar": "87.425,24"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "79.985.432,69",
+                    "realizada": "74.511.546,95",
+                    "saldo_a_pagar": "5.473.885,74"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "4.704.191,66",
+                    "realizada": "4.010.477,46",
+                    "saldo_a_pagar": "693.714,20"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "9.179.355,34",
+                    "realizada": "9.046.547,59",
+                    "saldo_a_pagar": "132.807,75"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "7.323.142,90",
+                    "realizada": "7.223.906,51",
+                    "saldo_a_pagar": "99.236,39"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "15.137.956,47",
+                    "realizada": "14.770.709,29",
+                    "saldo_a_pagar": "367.247,18"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "991.456,91",
+                    "realizada": "933.833,93",
+                    "saldo_a_pagar": "57.622,98"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "76.192.497,47",
+                    "realizada": "76.155.894,72",
+                    "saldo_a_pagar": "36.602,75"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "1.603.531,24",
+                    "realizada": "1.590.256,28",
+                    "saldo_a_pagar": "13.274,96"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "250.077.233,41",
+                    "realizada": "248.706.855,04",
+                    "saldo_a_pagar": "1.370.378,37"
+                }
+            ]
+        },
+        {
+            "junho": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "174.922.698,95",
+                    "realizada": "166.581.968,85",
+                    "saldo_a_pagar": "8.340.730,10"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "300.821.093,55",
+                    "realizada": "293.838.614,99",
+                    "saldo_a_pagar": "6.982.478,56"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "142.605.394,19",
+                    "realizada": "132.616.995,75",
+                    "saldo_a_pagar": "9.988.398,44"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "433.188.974,09",
+                    "realizada": "407.919.495,29",
+                    "saldo_a_pagar": "25.269.478,80"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "503.356.450,28",
+                    "realizada": "492.227.861,11",
+                    "saldo_a_pagar": "11.128.589,17"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "58.666.121,92",
+                    "realizada": "53.900.280,15",
+                    "saldo_a_pagar": "4.765.841,77"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "665.251.764,67",
+                    "realizada": "665.153.821,92",
+                    "saldo_a_pagar": "97.942,75"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "573.771.882,62",
+                    "realizada": "528.711.077,68",
+                    "saldo_a_pagar": "45.060.804,94"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "15.529.099,86",
+                    "realizada": "15.389.989,64",
+                    "saldo_a_pagar": "139.110,22"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "655.163.330,82",
+                    "realizada": "616.625.719,54",
+                    "saldo_a_pagar": "38.537.611,28"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "5.415.817,71",
+                    "realizada": "5.335.128,27",
+                    "saldo_a_pagar": "80.689,44"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "72.136.877,44",
+                    "realizada": "68.881.562,51",
+                    "saldo_a_pagar": "3.255.314,93"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "50.193.356,69",
+                    "realizada": "50.193.356,69",
+                    "saldo_a_pagar": "0,00"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "22.487.636,72",
+                    "realizada": "22.135.016,94",
+                    "saldo_a_pagar": "352.619,78"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "45.468.050,67",
+                    "realizada": "45.236.940,96",
+                    "saldo_a_pagar": "231.109,71"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "81.320.618,15",
+                    "realizada": "80.373.734,15",
+                    "saldo_a_pagar": "946.884,00"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "12.522.374,00",
+                    "realizada": "12.426.489,71",
+                    "saldo_a_pagar": "95.884,29"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "94.424.152,38",
+                    "realizada": "88.293.362,68",
+                    "saldo_a_pagar": "6.130.789,70"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "5.370.126,91",
+                    "realizada": "4.673.912,71",
+                    "saldo_a_pagar": "696.214,20"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "12.110.307,24",
+                    "realizada": "11.944.733,37",
+                    "saldo_a_pagar": "165.573,87"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "9.435.201,14",
+                    "realizada": "9.331.207,48",
+                    "saldo_a_pagar": "103.993,66"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "18.942.510,69",
+                    "realizada": "18.575.125,20",
+                    "saldo_a_pagar": "367.385,49"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "1.199.235,20",
+                    "realizada": "1.141.612,22",
+                    "saldo_a_pagar": "57.622,98"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "99.952.296,20",
+                    "realizada": "99.915.693,45",
+                    "saldo_a_pagar": "36.602,75"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "2.032.182,53",
+                    "realizada": "2.017.881,67",
+                    "saldo_a_pagar": "14.300,86"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "306.479.053,96",
+                    "realizada": "304.260.065,97",
+                    "saldo_a_pagar": "2.218.987,99"
+                }
+            ]
+        },
+        {
+            "julho": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "203.062.877,81",
+                    "realizada": "194.518.942,19",
+                    "saldo_a_pagar": "8.543.935,62"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "371.406.220,76",
+                    "realizada": "361.588.490,99",
+                    "saldo_a_pagar": "9.817.729,77"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "165.879.553,52",
+                    "realizada": "154.510.683,13",
+                    "saldo_a_pagar": "11.368.870,39"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "498.530.035,64",
+                    "realizada": "465.391.932,53",
+                    "saldo_a_pagar": "33.138.103,11"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "590.474.886,77",
+                    "realizada": "564.476.910,32",
+                    "saldo_a_pagar": "25.997.976,45"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "80.210.196,37",
+                    "realizada": "66.093.894,01",
+                    "saldo_a_pagar": "14.116.302,36"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "768.822.314,21",
+                    "realizada": "768.554.603,02",
+                    "saldo_a_pagar": "267.711,19"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "707.032.743,23",
+                    "realizada": "646.304.654,37",
+                    "saldo_a_pagar": "60.728.088,86"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "21.552.159,96",
+                    "realizada": "21.135.223,33",
+                    "saldo_a_pagar": "416.936,63"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "766.080.252,64",
+                    "realizada": "721.984.356,77",
+                    "saldo_a_pagar": "44.095.895,87"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "6.831.462,78",
+                    "realizada": "6.399.444,22",
+                    "saldo_a_pagar": "432.018,56"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "84.698.875,17",
+                    "realizada": "81.225.353,43",
+                    "saldo_a_pagar": "3.473.521,74"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "57.412.460,31",
+                    "realizada": "57.404.817,91",
+                    "saldo_a_pagar": "7.642,40"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "26.380.607,31",
+                    "realizada": "26.011.812,33",
+                    "saldo_a_pagar": "368.794,98"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "50.643.539,93",
+                    "realizada": "49.772.896,49",
+                    "saldo_a_pagar": "870.643,44"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "93.843.509,94",
+                    "realizada": "92.786.268,10",
+                    "saldo_a_pagar": "1.057.241,84"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "14.537.710,97",
+                    "realizada": "14.432.579,51",
+                    "saldo_a_pagar": "105.131,46"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "108.191.900,77",
+                    "realizada": "101.967.652,14",
+                    "saldo_a_pagar": "6.224.248,63"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "6.050.046,50",
+                    "realizada": "5.352.032,30",
+                    "saldo_a_pagar": "698.014,20"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "13.947.326,31",
+                    "realizada": "13.764.797,44",
+                    "saldo_a_pagar": "182.528,87"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "11.137.652,90",
+                    "realizada": "10.850.379,73",
+                    "saldo_a_pagar": "287.273,17"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "23.467.355,98",
+                    "realizada": "22.799.901,13",
+                    "saldo_a_pagar": "667.454,85"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "1.405.533,01",
+                    "realizada": "1.347.910,02",
+                    "saldo_a_pagar": "57.622,99"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "130.483.265,11",
+                    "realizada": "130.446.662,36",
+                    "saldo_a_pagar": "36.602,75"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "2.487.748,52",
+                    "realizada": "2.407.885,24",
+                    "saldo_a_pagar": "79.863,28"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "347.054.374,26",
+                    "realizada": "343.701.791,10",
+                    "saldo_a_pagar": "3.352.583,16"
+                }
+            ]
+        },
+        {
+            "agosto": [
+                {
+                    "codigo": "01",
+                    "descricao": "LEGISLATIVA",
+                    "executada": "245.197.419,85",
+                    "realizada": "235.627.612,17",
+                    "saldo_a_pagar": "9.569.807,68"
+                },
+                {
+                    "codigo": "02",
+                    "descricao": "JUDICIARIA",
+                    "executada": "420.218.218,98",
+                    "realizada": "407.602.989,46",
+                    "saldo_a_pagar": "12.615.229,52"
+                },
+                {
+                    "codigo": "03",
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "187.633.639,77",
+                    "realizada": "175.809.959,43",
+                    "saldo_a_pagar": "11.823.680,34"
+                },
+                {
+                    "codigo": "04",
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "566.753.830,27",
+                    "realizada": "529.137.568,75",
+                    "saldo_a_pagar": "37.616.261,52"
+                },
+                {
+                    "codigo": "06",
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "673.622.861,83",
+                    "realizada": "644.668.547,62",
+                    "saldo_a_pagar": "28.954.314,21"
+                },
+                {
+                    "codigo": "08",
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "90.164.975,53",
+                    "realizada": "75.207.198,49",
+                    "saldo_a_pagar": "14.957.777,04"
+                },
+                {
+                    "codigo": "09",
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "875.875.150,01",
+                    "realizada": "872.484.052,28",
+                    "saldo_a_pagar": "3.391.097,73"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "785.714.523,24",
+                    "realizada": "717.052.759,93",
+                    "saldo_a_pagar": "68.661.763,31"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "26.292.013,06",
+                    "realizada": "25.875.076,43",
+                    "saldo_a_pagar": "416.936,63"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "868.536.029,48",
+                    "realizada": "818.849.935,71",
+                    "saldo_a_pagar": "49.686.093,77"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "8.135.818,58",
+                    "realizada": "7.593.020,15",
+                    "saldo_a_pagar": "542.798,43"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "96.626.538,28",
+                    "realizada": "91.856.150,85",
+                    "saldo_a_pagar": "4.770.387,43"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "70.193.930,18",
+                    "realizada": "70.026.113,34",
+                    "saldo_a_pagar": "167.816,84"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "28.749.729,55",
+                    "realizada": "28.373.069,57",
+                    "saldo_a_pagar": "376.659,98"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "59.582.076,09",
+                    "realizada": "56.455.894,06",
+                    "saldo_a_pagar": "3.126.182,03"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "126.685.814,06",
+                    "realizada": "125.598.242,07",
+                    "saldo_a_pagar": "1.087.571,99"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "16.647.917,91",
+                    "realizada": "16.538.142,14",
+                    "saldo_a_pagar": "109.775,77"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "123.196.621,85",
+                    "realizada": "116.308.347,10",
+                    "saldo_a_pagar": "6.888.274,75"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "6.759.127,58",
+                    "realizada": "6.047.185,61",
+                    "saldo_a_pagar": "711.941,97"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "15.605.996,39",
+                    "realizada": "15.353.008,80",
+                    "saldo_a_pagar": "252.987,59"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "12.647.526,22",
+                    "realizada": "12.313.826,27",
+                    "saldo_a_pagar": "333.699,95"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "28.994.168,26",
+                    "realizada": "26.405.282,76",
+                    "saldo_a_pagar": "2.588.885,50"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "1.608.259,83",
+                    "realizada": "1.550.609,84",
+                    "saldo_a_pagar": "57.649,99"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "143.411.829,42",
+                    "realizada": "143.375.226,67",
+                    "saldo_a_pagar": "36.602,75"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "2.988.084,22",
+                    "realizada": "2.893.879,28",
+                    "saldo_a_pagar": "94.204,94"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "387.083.766,52",
+                    "realizada": "383.416.846,60",
+                    "saldo_a_pagar": "3.666.919,92"
+                }
+            ]
+        },
+        {
+            "setembro": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "303.375.678,07",
+                    "realizada": "293.015.115,48",
+                    "saldo_a_pagar": "10.360.562,59"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "510.032.089,01",
+                    "realizada": "490.167.674,92",
+                    "saldo_a_pagar": "19.864.414,09"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "234.486.345,87",
+                    "realizada": "221.979.506,44",
+                    "saldo_a_pagar": "12.506.839,43"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "687.878.084,83",
+                    "realizada": "642.389.034,59",
+                    "saldo_a_pagar": "45.489.050,24"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "838.144.390,75",
+                    "realizada": "801.705.364,19",
+                    "saldo_a_pagar": "36.439.026,56"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "108.468.693,78",
+                    "realizada": "90.872.247,54",
+                    "saldo_a_pagar": "17.596.446,24"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "1.084.760.070,71",
+                    "realizada": "1.081.322.617,77",
+                    "saldo_a_pagar": "3.437.452,94"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "976.912.593,69",
+                    "realizada": "876.402.414,86",
+                    "saldo_a_pagar": "100.510.178,83"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "33.208.088,72",
+                    "realizada": "32.625.259,98",
+                    "saldo_a_pagar": "582.828,74"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "1.104.944.978,74",
+                    "realizada": "992.440.915,78",
+                    "saldo_a_pagar": "112.504.062,96"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "11.479.477,37",
+                    "realizada": "9.508.486,67",
+                    "saldo_a_pagar": "1.970.990,70"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "122.369.618,61",
+                    "realizada": "113.133.683,23",
+                    "saldo_a_pagar": "9.235.935,38"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "96.722.046,19",
+                    "realizada": "96.483.550,02",
+                    "saldo_a_pagar": "238.496,17"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "34.446.523,10",
+                    "realizada": "34.054.450,80",
+                    "saldo_a_pagar": "392.072,30"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "74.898.135,85",
+                    "realizada": "66.951.633,43",
+                    "saldo_a_pagar": "7.946.502,42"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "156.188.564,06",
+                    "realizada": "147.120.836,34",
+                    "saldo_a_pagar": "9.067.727,72"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "23.795.188,69",
+                    "realizada": "23.011.122,32",
+                    "saldo_a_pagar": "784.066,37"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "154.876.328,50",
+                    "realizada": "145.584.418,47",
+                    "saldo_a_pagar": "9.291.910,03"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "8.140.945,56",
+                    "realizada": "7.382.609,58",
+                    "saldo_a_pagar": "758.335,98"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "17.920.067,27",
+                    "realizada": "17.564.447,59",
+                    "saldo_a_pagar": "355.619,68"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "15.381.972,01",
+                    "realizada": "14.942.367,92",
+                    "saldo_a_pagar": "439.604,09"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "36.605.498,29",
+                    "realizada": "33.759.945,06",
+                    "saldo_a_pagar": "2.845.553,23"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "1.959.315,26",
+                    "realizada": "1.901.367,27",
+                    "saldo_a_pagar": "57.947,99"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "169.963.341,39",
+                    "realizada": "169.882.390,94",
+                    "saldo_a_pagar": "80.950,45"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "3.672.526,72",
+                    "realizada": "3.544.295,35",
+                    "saldo_a_pagar": "128.231,37"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "493.311.125,14",
+                    "realizada": "488.547.489,25",
+                    "saldo_a_pagar": "4.763.635,89"
+                }
+            ]
+        },
+        {
+            "outubro": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "303.375.678,07",
+                    "realizada": "293.015.115,48",
+                    "saldo_a_pagar": "10.360.562,59"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "510.032.089,01",
+                    "realizada": "490.167.674,92",
+                    "saldo_a_pagar": "19.864.414,09"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "234.486.345,87",
+                    "realizada": "221.979.506,44",
+                    "saldo_a_pagar": "12.506.839,43"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "687.878.084,83",
+                    "realizada": "642.389.034,59",
+                    "saldo_a_pagar": "45.489.050,24"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "838.144.390,75",
+                    "realizada": "801.705.364,19",
+                    "saldo_a_pagar": "36.439.026,56"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "108.468.693,78",
+                    "realizada": "90.872.247,54",
+                    "saldo_a_pagar": "17.596.446,24"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "1.084.760.070,71",
+                    "realizada": "1.081.322.617,77",
+                    "saldo_a_pagar": "3.437.452,94"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "976.912.593,69",
+                    "realizada": "876.402.414,86",
+                    "saldo_a_pagar": "100.510.178,83"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "33.208.088,72",
+                    "realizada": "32.625.259,98",
+                    "saldo_a_pagar": "582.828,74"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "1.104.944.978,74",
+                    "realizada": "992.440.915,78",
+                    "saldo_a_pagar": "112.504.062,96"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "11.479.477,37",
+                    "realizada": "9.508.486,67",
+                    "saldo_a_pagar": "1.970.990,70"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "122.369.618,61",
+                    "realizada": "113.133.683,23",
+                    "saldo_a_pagar": "9.235.935,38"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "96.722.046,19",
+                    "realizada": "96.483.550,02",
+                    "saldo_a_pagar": "238.496,17"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "34.446.523,10",
+                    "realizada": "34.054.450,80",
+                    "saldo_a_pagar": "392.072,30"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "74.898.135,85",
+                    "realizada": "66.951.633,43",
+                    "saldo_a_pagar": "7.946.502,42"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "156.188.564,06",
+                    "realizada": "147.120.836,34",
+                    "saldo_a_pagar": "9.067.727,72"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "23.795.188,69",
+                    "realizada": "23.011.122,32",
+                    "saldo_a_pagar": "784.066,37"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "154.876.328,50",
+                    "realizada": "145.584.418,47",
+                    "saldo_a_pagar": "9.291.910,03"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "8.140.945,56",
+                    "realizada": "7.382.609,58",
+                    "saldo_a_pagar": "758.335,98"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "17.920.067,27",
+                    "realizada": "17.564.447,59",
+                    "saldo_a_pagar": "355.619,68"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "15.381.972,01",
+                    "realizada": "14.942.367,92",
+                    "saldo_a_pagar": "439.604,09"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "36.605.498,29",
+                    "realizada": "33.759.945,06",
+                    "saldo_a_pagar": "2.845.553,23"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "1.959.315,26",
+                    "realizada": "1.901.367,27",
+                    "saldo_a_pagar": "57.947,99"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "169.963.341,39",
+                    "realizada": "169.882.390,94",
+                    "saldo_a_pagar": "80.950,45"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "3.672.526,72",
+                    "realizada": "3.544.295,35",
+                    "saldo_a_pagar": "128.231,37"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "493.311.125,14",
+                    "realizada": "488.547.489,25",
+                    "saldo_a_pagar": "4.763.635,89"
+                }
+            ]
+        },
+        {
+            "novembro": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "305.208.035,05",
+                    "realizada": "294.710.781,31",
+                    "saldo_a_pagar": "10.497.253,74"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "573.048.565,39",
+                    "realizada": "551.085.715,54",
+                    "saldo_a_pagar": "21.962.849,85"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "236.353.825,07",
+                    "realizada": "223.510.332,34",
+                    "saldo_a_pagar": "12.843.492,73"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "704.218.939,50",
+                    "realizada": "655.341.558,58",
+                    "saldo_a_pagar": "48.877.380,92"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "845.517.737,68",
+                    "realizada": "808.302.272,35",
+                    "saldo_a_pagar": "37.215.465,33"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "116.274.101,68",
+                    "realizada": "94.665.464,45",
+                    "saldo_a_pagar": "21.608.637,23"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "1.085.084.578,34",
+                    "realizada": "1.081.357.835,51",
+                    "saldo_a_pagar": "3.726.742,83"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "1.036.042.229,77",
+                    "realizada": "923.471.081,99",
+                    "saldo_a_pagar": "112.571.147,78"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "36.230.099,60",
+                    "realizada": "34.937.510,98",
+                    "saldo_a_pagar": "1.292.588,62"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "1.168.296.314,79",
+                    "realizada": "1.021.372.412,81",
+                    "saldo_a_pagar": "146.923.901,98"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "11.848.913,03",
+                    "realizada": "9.714.703,23",
+                    "saldo_a_pagar": "2.134.209,80"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "123.603.366,18",
+                    "realizada": "113.391.649,52",
+                    "saldo_a_pagar": "10.211.716,66"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "98.016.182,53",
+                    "realizada": "97.641.966,21",
+                    "saldo_a_pagar": "374.216,32"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "37.465.728,27",
+                    "realizada": "36.842.149,10",
+                    "saldo_a_pagar": "623.579,17"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "80.312.305,39",
+                    "realizada": "67.472.887,07",
+                    "saldo_a_pagar": "12.839.418,32"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "169.755.374,68",
+                    "realizada": "149.743.815,80",
+                    "saldo_a_pagar": "20.011.558,88"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "25.156.638,06",
+                    "realizada": "23.304.382,67",
+                    "saldo_a_pagar": "1.852.255,39"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "159.247.887,29",
+                    "realizada": "146.289.901,90",
+                    "saldo_a_pagar": "12.957.985,39"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "8.183.038,98",
+                    "realizada": "7.409.856,59",
+                    "saldo_a_pagar": "773.182,39"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "18.216.566,88",
+                    "realizada": "17.674.390,29",
+                    "saldo_a_pagar": "542.176,59"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "15.985.833,63",
+                    "realizada": "15.069.111,24",
+                    "saldo_a_pagar": "916.722,39"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "39.396.062,33",
+                    "realizada": "35.539.736,00",
+                    "saldo_a_pagar": "3.856.326,33"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "2.031.151,70",
+                    "realizada": "1.965.108,71",
+                    "saldo_a_pagar": "66.042,99"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "176.003.569,47",
+                    "realizada": "175.127.749,42",
+                    "saldo_a_pagar": "875.820,05"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "3.758.406,28",
+                    "realizada": "3.553.009,11",
+                    "saldo_a_pagar": "205.397,17"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "499.813.076,60",
+                    "realizada": "494.273.412,35",
+                    "saldo_a_pagar": "5.539.664,25"
+                }
+            ]
+        },
+        {
+            "dezembro": [
+                {
+                    "codigo": 1,
+                    "descricao": "LEGISLATIVA",
+                    "executada": "305.208.035,05",
+                    "realizada": "294.710.781,31",
+                    "saldo_a_pagar": "10.497.253,74"
+                },
+                {
+                    "codigo": 2,
+                    "descricao": "JUDICIARIA",
+                    "executada": "573.048.565,39",
+                    "realizada": "551.085.715,54",
+                    "saldo_a_pagar": "21.962.849,85"
+                },
+                {
+                    "codigo": 3,
+                    "descricao": "ESSENCIAL A JUSTICA",
+                    "executada": "236.353.825,07",
+                    "realizada": "223.510.332,34",
+                    "saldo_a_pagar": "12.843.492,73"
+                },
+                {
+                    "codigo": 4,
+                    "descricao": "ADMINISTRACAO",
+                    "executada": "704.218.939,50",
+                    "realizada": "655.341.558,58",
+                    "saldo_a_pagar": "48.877.380,92"
+                },
+                {
+                    "codigo": 6,
+                    "descricao": "SEGURANCA PUBLICA",
+                    "executada": "845.517.737,68",
+                    "realizada": "808.302.272,35",
+                    "saldo_a_pagar": "37.215.465,33"
+                },
+                {
+                    "codigo": 8,
+                    "descricao": "ASSISTENCIA SOCIAL",
+                    "executada": "116.274.101,68",
+                    "realizada": "94.665.464,45",
+                    "saldo_a_pagar": "21.608.637,23"
+                },
+                {
+                    "codigo": 9,
+                    "descricao": "PREVIDENCIA SOCIAL",
+                    "executada": "1.085.084.578,34",
+                    "realizada": "1.081.357.835,51",
+                    "saldo_a_pagar": "3.726.742,83"
+                },
+                {
+                    "codigo": 10,
+                    "descricao": "SAUDE",
+                    "executada": "1.036.042.229,77",
+                    "realizada": "923.471.081,99",
+                    "saldo_a_pagar": "112.571.147,78"
+                },
+                {
+                    "codigo": 11,
+                    "descricao": "TRABALHO",
+                    "executada": "36.230.099,60",
+                    "realizada": "34.937.510,98",
+                    "saldo_a_pagar": "1.292.588,62"
+                },
+                {
+                    "codigo": 12,
+                    "descricao": "EDUCACAO",
+                    "executada": "1.168.296.314,79",
+                    "realizada": "1.021.372.412,81",
+                    "saldo_a_pagar": "146.923.901,98"
+                },
+                {
+                    "codigo": 13,
+                    "descricao": "CULTURA",
+                    "executada": "11.848.913,03",
+                    "realizada": "9.714.703,23",
+                    "saldo_a_pagar": "2.134.209,80"
+                },
+                {
+                    "codigo": 14,
+                    "descricao": "DIREITOS DA CIDADANIA",
+                    "executada": "123.603.366,18",
+                    "realizada": "113.391.649,52",
+                    "saldo_a_pagar": "10.211.716,66"
+                },
+                {
+                    "codigo": 15,
+                    "descricao": "URBANISMO",
+                    "executada": "98.016.182,53",
+                    "realizada": "97.641.966,21",
+                    "saldo_a_pagar": "374.216,32"
+                },
+                {
+                    "codigo": 16,
+                    "descricao": "HABITACAO",
+                    "executada": "37.465.728,27",
+                    "realizada": "36.842.149,10",
+                    "saldo_a_pagar": "623.579,17"
+                },
+                {
+                    "codigo": 17,
+                    "descricao": "SANEAMENTO",
+                    "executada": "80.312.305,39",
+                    "realizada": "67.472.887,07",
+                    "saldo_a_pagar": "12.839.418,32"
+                },
+                {
+                    "codigo": 18,
+                    "descricao": "GESTAO AMBIENTAL",
+                    "executada": "169.755.374,68",
+                    "realizada": "149.743.815,80",
+                    "saldo_a_pagar": "20.011.558,88"
+                },
+                {
+                    "codigo": 19,
+                    "descricao": "CIENCIA E TECNOLOGIA",
+                    "executada": "25.156.638,06",
+                    "realizada": "23.304.382,67",
+                    "saldo_a_pagar": "1.852.255,39"
+                },
+                {
+                    "codigo": 20,
+                    "descricao": "AGRICULTURA",
+                    "executada": "159.247.887,29",
+                    "realizada": "146.289.901,90",
+                    "saldo_a_pagar": "12.957.985,39"
+                },
+                {
+                    "codigo": 21,
+                    "descricao": "ORGANIZACAO AGRARIA",
+                    "executada": "8.183.038,98",
+                    "realizada": "7.409.856,59",
+                    "saldo_a_pagar": "773.182,39"
+                },
+                {
+                    "codigo": 22,
+                    "descricao": "INDUSTRIA",
+                    "executada": "18.216.566,88",
+                    "realizada": "17.674.390,29",
+                    "saldo_a_pagar": "542.176,59"
+                },
+                {
+                    "codigo": 23,
+                    "descricao": "COMERCIO E SERVICOS",
+                    "executada": "15.985.833,63",
+                    "realizada": "15.069.111,24",
+                    "saldo_a_pagar": "916.722,39"
+                },
+                {
+                    "codigo": 24,
+                    "descricao": "COMUNICACOES",
+                    "executada": "39.396.062,33",
+                    "realizada": "35.539.736,00",
+                    "saldo_a_pagar": "3.856.326,33"
+                },
+                {
+                    "codigo": 25,
+                    "descricao": "ENERGIA",
+                    "executada": "2.031.151,70",
+                    "realizada": "1.965.108,71",
+                    "saldo_a_pagar": "66.042,99"
+                },
+                {
+                    "codigo": 26,
+                    "descricao": "TRANSPORTE",
+                    "executada": "176.003.569,47",
+                    "realizada": "175.127.749,42",
+                    "saldo_a_pagar": "875.820,05"
+                },
+                {
+                    "codigo": 27,
+                    "descricao": "DESPORTO E LAZER",
+                    "executada": "3.758.406,28",
+                    "realizada": "3.553.009,11",
+                    "saldo_a_pagar": "205.397,17"
+                },
+                {
+                    "codigo": 28,
+                    "descricao": "ENCARGOS ESPECIAIS",
+                    "executada": "499.813.076,60",
+                    "realizada": "494.273.412,35",
+                    "saldo_a_pagar": "5.539.664,25"
+                }
+            ]
+        }
+    ]
+}

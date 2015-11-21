@@ -1,0 +1,25 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+#chart {	
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}		
+
+text.legend {
+	-moz-transition: 0.2s !important;
+	-webkit-transition: 0.2s !important;
+	cursor: pointer;
+	font-size: 14px !important;
+}
+
+text.legend:hover {
+	-moz-transition: 0.2s !important;
+	-webkit-transition: 0.2s !important;
+	font-size: 17px !important;
+}
