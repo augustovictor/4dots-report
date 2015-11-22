@@ -216,6 +216,11 @@ var createCharts = function(year) {
 	};
 	
 	var options = {
+		
+		scaleLabel: function (value) {
+			// console.log(value);
+    		return currencyFormat(Number(value.value));
+		},
 
 	    ///Boolean - Whether grid lines are shown across the chart
 	    scaleShowGridLines : true,
