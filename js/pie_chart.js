@@ -32,12 +32,6 @@ var chartColors = [
 	"#22A7F0"
 ];
 
-// var formatter = new Intl.NumberFormat('pt-BR', {
-//   style: 'currency',
-//   currency: 'BRL',
-//   minimumFractionDigits: 2,
-// });
-
 var currencyFormat = function (num) {
     return "R$ " + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")
 }
@@ -59,6 +53,7 @@ var currencyToNumber = function (currency) {
 
 var populateRankingTable = function(objects) {
 	var $table = $("#table-body");
+	$table.empty();
 	var despesaTotal = 0;
 	
 	for(var i = 0; i < objects.length; i++) {
@@ -100,35 +95,37 @@ var populateRankingTable = function(objects) {
 	$tr.append($td);
 	
 	$table.append($tr);
+
 };
 
+var myPieChart = null;
+var myLineChart = null;
+var dados = null;
 
-$.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw/69461a7717c8ba058c451806bd89ae19fbfbe9da/despesas', function(data) {
-	
-	var despesas = data.despesas;
+var createCharts = function(year) {
 	var chartData = [];
 	var line = [];
 	
 	var totalExecutado = 0;
 	var totalRealizado = 0;
 	
-	for(var i = 0; i < despesas["2015"][11].length; i++) {
-		var obj = despesas["2015"][11][i];
+	for(var i = 0; i < dados.despesas[year][11].length; i++) {
+		var obj = dados.despesas[year][11][i];
 		totalExecutado += currencyToNumber(obj.executada);
-		console.log(totalExecutado);
+		// console.log(totalExecutado);
 	}
-	console.log("============= ");
-	for(var i = 0; i < despesas["2015"][11].length; i++) {
-		var obj = despesas["2015"][11][i];
+	// console.log("============= ");
+	for(var i = 0; i < dados.despesas[year][11].length; i++) {
+		var obj = dados.despesas[year][11][i];
 		totalRealizado += currencyToNumber(obj.realizada);
 	}
 	
 	var test = 0;
-	for(var i = 0; i < despesas["2015"][11].length; i++) {
-		var obj = despesas["2015"][11][i];
+	for(var i = 0; i < dados.despesas[year][11].length; i++) {
+		var obj = dados.despesas[year][11][i];
 		var percent = (100.0 * currencyToNumber(obj.executada)) / totalExecutado;
 		test++;
-		console.log(Math.floor(percent * 100) / 100);
+		// console.log(Math.floor(percent * 100) / 100);
 		line.push({
 			value: Math.floor(percent * 100) / 100,
 			currency: obj.executada,
@@ -138,7 +135,7 @@ $.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw
         	highlight: "#F62459"
 		});
 	}
-	console.log("TOTAL: " + test);
+	// console.log("TOTAL: " + test);
 	
 
     var options = {
@@ -173,10 +170,117 @@ $.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw
 	
 	// Get the context of the canvas element we want to select
     var context = document.getElementById("pie-chart").getContext("2d");
-    // And for a doughnut chart
-    var myPieChart = new Chart(context).Pie(line, options);
+    if (myPieChart != null) {
+    	myPieChart.destroy();
+    }
+    
+    myPieChart = new Chart(context).Pie(line, options);
 	
 	var sortedValues = line.sort(compareValues);
 	
 	populateRankingTable(sortedValues);
-});
+	
+	
+	//==================================================
+	// LINE CHART
+	//==================================================
+	var despesas_bruta = dados.despesas_bruta[year];
+	var receitas_bruta = dados.receitas_bruta[year];
+	
+	var lineChartContext = context = document.getElementById("line-chart").getContext("2d");
+	
+	var data = {
+	    labels: ["Janeiro", "fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+	    datasets: [
+	        {
+	            label: "Receita",
+	            fillColor: "rgba(46, 204, 113,0.2)",
+	            strokeColor: "rgba(46, 204, 113,1.0)",
+	            pointColor: "rgba(46, 204, 113,1.0)",
+	            pointStrokeColor: "#fff",
+	            pointHighlightFill: "#fff",
+	            pointHighlightStroke: "rgba(46, 204, 113,1.0)",
+	            data: receitas_bruta
+	        },
+	        {
+	            label: "Despesa",
+	            fillColor: "rgba(231, 76, 60,0.2)",
+	            strokeColor: "rgba(231, 76, 60,1.0)",
+	            pointColor: "rgba(231, 76, 60,1.0)",
+	            pointStrokeColor: "#fff",
+	            pointHighlightFill: "#fff",
+	            pointHighlightStroke: "rgba(231, 76, 60,1.0)",
+	            data: despesas_bruta
+	        }
+	    ]
+	};
+	
+	var options = {
+
+	    ///Boolean - Whether grid lines are shown across the chart
+	    scaleShowGridLines : true,
+	
+	    //String - Colour of the grid lines
+	    scaleGridLineColor : "rgba(0,0,0,.05)",
+	
+	    //Number - Width of the grid lines
+	    scaleGridLineWidth : 1,
+	
+	    //Boolean - Whether to show horizontal lines (except X axis)
+	    scaleShowHorizontalLines: true,
+	
+	    //Boolean - Whether to show vertical lines (except Y axis)
+	    scaleShowVerticalLines: true,
+	
+	    //Boolean - Whether the line is curved between points
+	    bezierCurve : true,
+	
+	    //Number - Tension of the bezier curve between points
+	    bezierCurveTension : 0.4,
+	
+	    //Boolean - Whether to show a dot for each point
+	    pointDot : true,
+	
+	    //Number - Radius of each point dot in pixels
+	    pointDotRadius : 4,
+	
+	    //Number - Pixel width of point dot stroke
+	    pointDotStrokeWidth : 1,
+	
+	    //Number - amount extra to add to the radius to cater for hit detection outside the drawn point
+	    pointHitDetectionRadius : 20,
+	
+	    //Boolean - Whether to show a stroke for datasets
+	    datasetStroke : true,
+	
+	    //Number - Pixel width of dataset stroke
+	    datasetStrokeWidth : 2,
+	
+	    //Boolean - Whether to fill the dataset with a colour
+	    datasetFill : true,
+	    
+	    multiTooltipTemplate: "<%if (label){%><%=datasetLabel %>: <%}%><%= currencyFormat(value) %>",
+	
+	    //String - A legend template
+	    legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+	
+	};
+	
+	if (myLineChart != null) {
+    	myLineChart.destroy();
+    }
+	myLineChart = new Chart(lineChartContext).Line(data, options);
+	
+	
+	
+
+}
+
+var observeYearChanges = function(year) {
+	$.getJSON('https://gist.githubusercontent.com/brunojppb/92df7faf8f94a87651e5/raw/75a0e0dec76e4dc6f77e128ab0a290c0914e2d32/despesas', function(data) {
+	dados = data;
+	createCharts(year);
+	});	
+};
+
+observeYearChanges("2015");

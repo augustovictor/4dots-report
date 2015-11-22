@@ -36,61 +36,37 @@ var currencyToNumber = function (currency) {
 
 $.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw/69461a7717c8ba058c451806bd89ae19fbfbe9da/despesas', function(data) {
 	
-	var despesas = data.despesas;
-	console.log(despesas['2015']);
+	var despesas = data.despesas['2015'];
 	var mesesTxt = ["Janeiro", "fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 	
-	var execLegislacao = [];
-	var execSegurancaPublica = [];
-
-    // Popula execLegislacao
-	for(var i = 0; i < mesesTxt.length; i++) { //    ano   mes entidade
-	    execLegislacao.push(parseInt(despesas['2015'][i][0].executada.replace(/\.|,[0-9]{2}/g,"")));
+	var dataset = [];
+	console.log("Despesas: " + JSON.stringify(despesas[0], null, 2));
+	for(var i=0; i< despesas[1].length; i++) {
+		var instituicao = {
+			id: despesas[1][i].codigo,
+			label: despesas[1][i].descricao,
+            strokeColor: chartColors[i],
+            pointColor: chartColors[i],
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: chartColors[i],
+            data: []
+		};
+		console.log("Instituicao: " + instituicao);
+		for(var j=0; j < despesas[i].length; j++){
+			var institute = $.grep(despesas[j][i], function(e){ return e.con == id; });
+			instituicao.data.push(currencyToNumber(despesas[j][i].executada));
+		}
+		
+		dataset.push(instituicao);
 	}
 	
-	// Popula execSegurancaPublica
-	for(var i = 0; i < mesesTxt.length; i++) { //    ano   mes entidade
-	    execSegurancaPublica.push(parseInt(despesas['2015'][i][4].executada.replace(/\.|,[0-9]{2}/g,"")));
-	}
+	console.log("My DATA!: " + dataset);
 	
 	var data = {
 	    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
-	    datasets: [
-	        {
-	            label: "Legislação",
-	            fillColor: "rgba(210, 77, 87, 0.2)",
-	            strokeColor: "rgba(210, 77, 87, 1)",
-	            pointColor: "rgba(210, 77, 87, 1)",
-	            pointStrokeColor: "#fff",
-	            pointHighlightFill: "#fff",
-	            pointHighlightStroke: "rgba(210, 77, 87, 1)",
-	            data: []
-	        },
-	        
-	        {
-	            label: "Segurança pública",
-	            fillColor: "rgba(220,220,220,0.2)",
-	            strokeColor: "rgba(220,220,220,1)",
-	            pointColor: "rgba(220,220,220,1)",
-	            pointStrokeColor: "#fff",
-	            pointHighlightFill: "#fff",
-	            pointHighlightStroke: "rgba(220,220,220,1)",
-	            data: []
-	        },
-            
-	    ]
+	    datasets: dataset
 	};
-	
-	// Popula execLegislacao.data[]
-    for(var i = 0; i < execLegislacao.length; i++) {
-        data.datasets[0].data.push(execLegislacao[i]);
-    }
-    
-    // Popula execSegurancaPublica.data[]
-    for(var i = 0; i < execSegurancaPublica.length; i++) {
-        data.datasets[1].data.push(execSegurancaPublica[i]);
-    }
-    
     
     
 	var options = {
