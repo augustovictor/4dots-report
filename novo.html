@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
@@ -22,9 +22,9 @@
         
         <style type="text/css">
         
-            /*body {
-                background-color: #34495E;
-            }*/
+            .google-font {
+                font-family: 'Roboto', sans-serif;   
+            }
         
             .chart-title {
                 color: white;
@@ -37,9 +37,20 @@
         </style>
         
     </head>
-    <body>
-        <div class="container">
-            <div class="col-md-12">
+    <body">
+        <div class="container" id="load">
+            <div class="row" >
+                <div class="col-md-6">
+                    <img src="img/hackathon_logo.png" class="img img-responsive center-block" style="margin-right: 0; margin-top: 100px;"></img>
+                </div>
+                <div class="col-md-6 text-center" style="padding: 100px">
+                    <h2>Equipe</h2>
+                    <h1 class="google-font">4Dots</h1>
+                </div>    
+            </div>
+        </div>
+        <div class="container" style="display: none" id="graficos">
+            <div class="col-md-12" >
                 <div id="body">
                     <div class="row">
                         <h1 class="box-title text-center">Selecione um ano:</h1>
@@ -75,7 +86,7 @@
                             
                         </div>
                     </div>
-                    <br>
+                    
                     <div class="row">
                         <div class="col-md-12">
                             <div class="box">
@@ -114,6 +125,14 @@
         $('#select-year').change(function(){
             $("#ano").html($('#select-year').val());
             createCharts($('#select-year').val());
+        });
+        
+        $("#load").fadeOut(3000, function(){
+            // $("body").css('background-color', 'whit');
+            $("#graficos").fadeIn(100, function(){
+                observeYearChanges("2015");
+            });
+            
         });
         
     </script>

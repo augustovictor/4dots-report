@@ -37,7 +37,7 @@ var currencyToNumber = function (currency) {
 $.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw/69461a7717c8ba058c451806bd89ae19fbfbe9da/despesas', function(data) {
 	
 	var despesas = data.despesas['2015'];
-	var mesesTxt = ["Janeiro", "fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+	var mesesTxt = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 	
 	var dataset = [];
 	console.log("Despesas: " + JSON.stringify(despesas[0], null, 2));
@@ -64,7 +64,7 @@ $.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw
 	console.log("My DATA!: " + dataset);
 	
 	var data = {
-	    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+	    labels: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
 	    datasets: dataset
 	};
     
@@ -148,7 +148,4 @@ $.getJSON('https://gist.githubusercontent.com/brunojppb/3da2415d52a0ff0db15b/raw
         return formattedNumber;
     }
 	
-    $('#addLegislacaoToLine').click(function() {
-        myLineChart.addData([12314123], "Janeiro");
-    });
 });

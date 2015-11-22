@@ -190,7 +190,7 @@ var createCharts = function(year) {
 	var lineChartContext = context = document.getElementById("line-chart").getContext("2d");
 	
 	var data = {
-	    labels: ["Janeiro", "fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+	    labels: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
 	    datasets: [
 	        {
 	            label: "Receita",
@@ -288,4 +288,4 @@ var observeYearChanges = function(year) {
 	});	
 };
 
-observeYearChanges("2015");
+// observeYearChanges("2015");
