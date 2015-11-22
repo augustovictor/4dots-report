@@ -1,0 +1,110 @@
+<!doctype html>
+<html ng-app>
+    <meta charset="UTF-8">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+        <script type="text/javascript" src="js/pie_chart.js"></script>
+        <script type="text/javascript" src="js/line_chart.js"></script>
+        
+        <style type="text/css">
+        
+            /*body {
+                background-color: #34495E;
+            }*/
+        
+            .chart-title {
+                color: white;
+            }
+            
+            .my-select {
+                font-size: 40px;
+                height: 50px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-md-12">
+                <div id="body">
+                    <div class="row">
+                        <h1 class="box-title text-center">Selecione um ano:</h1>
+                        <div class="col-md-12 text-center">
+                            <form>
+                                <select name="ano" class="form-control my-select">
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row col-md-5 text-center">
+                            <h4 class="text-center">% de despesas do Estado da Paraíba</h4>
+                            <canvas id="pie-chart" width="100%" height="100%"></canvas>
+                        </div>
+                        <div class="row col-md-6 col-md-offset-1 text-right">
+                          <div class="box">
+                            <div class="box-header with-border">
+                              <h3 class="box-title text-center">Ranking dos mais caros?</h3>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                              <table class="table table-bordered text-left table-hover">
+                                <tbody id="table-body">
+                                    <tr>
+                                      <th style="width: 10px">#</th>
+                                      <th>Função</th>
+                                      <th>Total em R$</th>
+                                      <th class="text-center">% das despesas</th>
+                                    </tr>
+                                    
+                                  </tbody>
+                              </table>
+                            </div>
+                            <!-- /.box-body -->
+
+                          </div>  
+                        </div>
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--<h1 class="chart-title"> Total anual detalhado </h1>-->
+                            <h1> Total anual detalhado </h1>
+                            
+                            <ul class="list-inline">
+                                <li id="addLegislacaoToLine">Legislação</li>
+                                <li id="addSegurancaPublicaToLine">Segurança pública</li>
+                            </ul>
+                            
+                            <div class="row col-md-12 text-center">
+                                <canvas id="line-chart" height="400" width="1000"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
