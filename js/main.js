@@ -68,6 +68,7 @@ var populateRankingTable = function(objects) {
 		$tr.append($td);
 		
 		$td = $("<td>");
+		$td.addClass('hidden-xs');
 		$td.html("R$ " + objects[i].currency);
 		$tr.append($td);
 		
