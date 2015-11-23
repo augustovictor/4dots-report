@@ -15,40 +15,40 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-        
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+
+        <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" /> -->
         <!--[if lt IE 9]>
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
         <![endif]-->
-        
+
         <link rel="stylesheet" href="css/style.css">
-        
-        
+
+
         <style type="text/css">
-        
+
             .google-font {
-                font-family: 'Roboto', sans-serif;   
+                font-family: 'Roboto', sans-serif;
             }
-        
+
             .chart-title {
                 color: white;
             }
-            
+
             .my-select {
                 font-size: 40px;
                 height: 50px;
             }
         </style>
-        
+
     </head>
     <body>
         <a href="https://github.com/victoraweb/4dots-report" target="_blank"><img style="position: absolute; top: 50px; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
         <header class="header">
 
     		<nav class="navbar navbar-custom" role="navigation">
-    
+
     			<div class="container">
-    
+
     				<div class="navbar-header">
     					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
     						<span class="sr-only">Navegação</span>
@@ -58,19 +58,20 @@
     					</button>
     					<a class="navbar-brand" href="http://4dots.com.br/">: 4dots :</a>
     				</div>
-    
+
     				<div class="collapse navbar-collapse" id="custom-collapse">
     					<ul class="nav navbar-nav navbar-right">
     						<li><a href="#despesasAnuais">Despesas Anuais</a></li>
-    						<li><a href="#despesasAnuaisDetalhadas">Despesas Anuais Detalhadas</a></li>
+                            <li><a href="#despesasMensaisDetalhadas">Receitas/Despesas Mensais</a></li>
+    						<li><a href="#despesasAnuaisDetalhadas">Receitas/Despesas Anuais</a></li>
     						<li><a href="#equipe">Equipe</a></li>
     					</ul>
     				</div>
-    
+
     			</div><!-- .container -->
-    
+
     		</nav>
-    
+
     	</header>
         <div class="container" id="load">
             <div class="row" >
@@ -80,7 +81,7 @@
                 <div class="col-md-6 text-center" style="padding: 100px">
                     <h2>Equipe</h2>
                     <h1 class="google-font">4Dots</h1>
-                </div>    
+                </div>
             </div>
         </div>
         <section id="despesasAnuais" class="pfblock pfblock-gray">
@@ -90,10 +91,10 @@
                     <div class="row">
                         <div class="pfblock-header">
                             <h2 class="box-title text-center">RELATÓRIO DE RECEITAS E DESPESAS DO ESTADO DA PARAÍBA</h2>
-                            <div class="pfblock-subtitle"> 
+                            <div class="pfblock-subtitle">
                                 <p>
                                     <h3 class="text-left select-year-margin">Selecione um ano:</h3>
-                                </p> 
+                                </p>
                             </div>
                             <div class="col-md-12 text-center">
                                 <form>
@@ -115,13 +116,13 @@
                             <canvas id="pie-chart" width="100%" height="100%"></canvas>
                         </div>
                         <div class="row col-md-6 col-md-offset-1 text-right">
-                            <h4 class="text-center">Evolução Anual Detalhada</h4>
+                            <h4 class="text-center">Evolução Anual Acumulada</h4>
                             <hr />
                             <ul class="list-inline text-center">
                                 <li id="addLegislacaoToLine"><span style="width: 20px; height: 20px; background-color: rgba(46, 204, 113,1.0); display: block; float: left; margin: 2px;"></span> Receita</li>
                                 <li id="addLegislacaoToLine"><span style="width: 20px; height: 20px; background-color: rgba(231, 76, 60,1.0); display: block; float: left;  margin: 2px;"></span> Despesa</li>
                             </ul>
-                            
+
                             <div class="row col-md-12 text-center">
                                 <canvas id="line-chart" height="100%" width="100%"></canvas>
                                 <div class="text-right">
@@ -130,11 +131,22 @@
                                 </div>
                             </div>
 
-                          </div>  
+                          </div>
                         </div>
-                            
+
                         </div>
                     </div>
+                    </section>
+                    <section id="despesasMensaisDetalhadas" class="pfblock">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="text-center">Evolução Mensal Detalhada em <strong id="ano">2015</strong></h4>
+                                    <hr />
+                                    <canvas id="month-chart" height="30px" width="100%"></canvas>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <section id="despesasAnuaisDetalhadas" class="pfblock">
                         <div class="container">
@@ -142,7 +154,7 @@
                                 <div class="col-md-12">
                                     <div class="box">
                                     <div class="box-header with-border">
-                                      <h1 class="box-title text-center">Quem Gastou Mais em <strong id="ano">2015</strong>?</h1>
+                                      <h1 class="box-title text-center">Quem Gastou Mais em <strong id="ano2">2015</strong>?</h1>
                                     </div>
                                     <!-- /.box-header -->
                                     <div class="box-body">
@@ -162,7 +174,7 @@
                                               <th>Total em R$</th>
                                               <th class="text-center">%</th>
                                             </tr>
-                                            
+
                                           </tbody>
                                       </table>
                                     </div>
@@ -171,17 +183,17 @@
                             </div>
                         </div>
                     </section>
-                    
+
                     <section class="pfblock pfblock-gray" id="equipe">
-		
+
             			<div class="container">
-            			
+
             				<div class="row skills">
-            					
+
             					<div class="row">
-            
+
                                     <div class="col-sm-6 col-sm-offset-3">
-            
+
                                         <div class="pfblock-header wow fadeInUp">
                                             <h2 class="pfblock-title">: Nossa equipe :</h2>
                                             <div class="pfblock-line"></div>
@@ -189,11 +201,11 @@
                                                 No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
                                             </div> -->
                                         </div>
-            
+
                                     </div>
-            
+
                                 </div><!-- .row -->
-            					
+
             					<div class="col-sm-4 col-md-4 text-center wow fadeInUp">
             						<div class="team-member">
             	                        <img src="images/team/team2.jpg" class="img-responsive img-circle" alt="">
@@ -206,8 +218,8 @@
             	                        </ul>
             	                    </div>
             					</div>
-            					
-            
+
+
             					<div class="col-sm-4 col-md-4 text-center wow fadeInUp">
             						<div class="team-member">
             	                        <img src="images/team/team4.png" class="img-responsive img-circle" alt="">
@@ -220,7 +232,7 @@
             	                        </ul>
             	                    </div>
             					</div>
-            
+
             					<div class="col-sm-4 col-md-4 text-center wow fadeInUp">
             						<div class="team-member">
             	                        <img src="images/team/team1.jpg" class="img-responsive img-circle" alt="">
@@ -233,37 +245,39 @@
             	                        </ul>
             	                    </div>
             					</div>
-            
+
             				</div><!--End row -->
-            			
+
             			</div>
-            		
+
                 </section>
-                    
+
                 </div>
             </div>
         </div>
     </body>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    
+
     <script type="text/javascript">
-        
+
         //observer no selectbox para mudar o ano
         $('#select-year').change(function(){
             $("#ano").html($('#select-year').val());
+            $("#ano2").html($('#select-year').val());
             createCharts($('#select-year').val());
         });
-        
+
         $("#load").fadeOut(3000, function(){
             // $("body").css('background-color', 'whit');
             $("#graficos").fadeIn(100, function(){
                 observeYearChanges("2015");
             });
-            
+
         });
-        
+
     </script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/custom.js"></script>
